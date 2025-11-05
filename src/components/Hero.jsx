@@ -1,4 +1,11 @@
-import { ArrowRight, MapPin, User, Monitor, Calendar, Sparkles } from "lucide-react";
+import {
+  ArrowRight,
+  MapPin,
+  User,
+  Monitor,
+  Calendar,
+  Sparkles,
+} from "lucide-react";
 import { useEffect, useState } from "react";
 
 export default function Hero() {
@@ -56,7 +63,7 @@ export default function Hero() {
                 </div>
                 <div className="flex items-center gap-3">
                   <User size={20} className="text-blue-500" />
-                  <span>Full Stack Developer</span>
+                  <span>Web Development Student</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Monitor size={20} className="text-blue-500" />
@@ -64,14 +71,18 @@ export default function Hero() {
                 </div>
                 <div className="flex items-center gap-3">
                   <Calendar size={20} className="text-blue-500" />
-                  <span>18 Years Old</span>
+                  <span>21 Years Old</span>
                 </div>
               </div>
             </div>
 
             {/* Description */}
             <p className="text-md sm:text-base lg:text-lg text-gray-400 max-w-2xl mx-auto lg:mx-0 mb-6 sm:mb-8 animate-in slide-in-from-bottom duration-700 delay-200 leading-relaxed">
-              As a dedicated developer, I bring precision and creative innovation to every project. I specialize in creating robust, scalable web applications that combine cutting-edge technology with intuitive user experiences.
+              As a passionate student developer, I enjoy combining creativity
+              with problem-solving to build modern and user-friendly web
+              applications. I’m focused on learning new technologies and
+              improving my skills to create efficient, scalable, and visually
+              appealing projects.{" "}
             </p>
 
             {/* Projects button */}
@@ -97,7 +108,9 @@ export default function Hero() {
                 <div className="opacity-60">Technologies</div>
               </div>
               <div>
-                <div className="text-5xl font-bold mb-2 text-blue-500">100%</div>
+                <div className="text-5xl font-bold mb-2 text-blue-500">
+                  100%
+                </div>
                 <div className="opacity-60">Dedication</div>
               </div>
             </div>
