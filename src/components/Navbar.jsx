@@ -24,7 +24,7 @@ export default function Navbar() {
             to="/"
             className="text-white font-bold text-lg sm:text-xl md:text-2xl hover:text-blue-400 transition-colors"
           >
-            Anton Wretenberg
+            AW
           </Link>
         )}
 
