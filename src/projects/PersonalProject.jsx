@@ -11,26 +11,7 @@ const personalProject = [
     liveUrl: false,
     image: "/images/blackJackTerminalGame.png", // <-- Lägg bilden här
   },
-  {
-    id: 2,
-    title: "Hotel Management System",
-    description:
-      "Java backend project for managing hotel rooms and reservations.",
-    technologies: ["Java", "OOP"],
-    githubUrl: "https://github.com/yourusername/hotel-system",
-    liveUrl: "https://your-deployed-blackjack.com", // Lägg till denna
-    image: "/images/hotel.png",
-  },
-  {
-    id: 3,
-    title: "React Notes App",
-    description:
-      "A simple CRUD note-taking app built with React and LocalStorage.",
-    technologies: ["React", "TailwindCSS"],
-    githubUrl: "https://github.com/yourusername/react-notes",
-    liveUrl: "https://your-deployed-blackjack.com", // Lägg till denna
-    image: "/images/notes.png",
-  },
+  
 ];
 
 export default function PersonalProject() {
